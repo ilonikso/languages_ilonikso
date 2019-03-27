@@ -5,16 +5,33 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Libre Baskerville', serif; 
 
 */
-
-body {
-    width: 1349px;
-    height: auto;
-    margin: 0 auto;
+html {
+   
+    margin: 0;
+    padding: 0;
     
+}
+body {
+    
+   
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 300;
     box-shadow: 0 0 20px #e0ded5;
+   
+    margin: 0 auto;
+    padding: 0;
+    
+    padding: 0 2px;
+}
+.wrapper {
+    max-width: 1368px;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+.clearfix {
+    clear: both;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -27,15 +44,16 @@ h3 {
     background-image: url(img/header_desktop-min.png);
     margin-bottom: 150px;
     background-color: #4d4037;
+    
 }
 .header__title {
     font-family: 'Libre Baskerville', serif; 
     font-size: 54px;
     font-weight: bold;
     color: #ededed;
-    width: 500px;
+    width: 36.54%;
     padding-top: 35px;
-    padding-left: 100px;
+    padding-left: 7.30%;
 }
 .header__titlea::selection ,h1::selection ,h2::selection ,h3::selection ,p::selection ,a::selection, img::selection {
     background-color: #3d3d3d;
@@ -44,7 +62,7 @@ h3 {
     
 }
 .header__logo {
-    margin-left: 100px;
+    padding-left: 7.30%;
     padding-top: 30px;
     display: block;
     width: 40px;
@@ -55,7 +73,7 @@ h3 {
     list-style: none;
     margin: 0;
     padding-left: 0;
-    margin-left: 1054px;
+    
     margin-top: -40px;
     display: block;
     
@@ -69,7 +87,9 @@ h3 {
     
 }
 .header__menu {
-    
+    display: block;
+    float: right;
+    margin-right: 7.30%;
 }
 .header__menu a {
     text-decoration: none;
@@ -83,11 +103,12 @@ h3 {
 
 /* ----------------------------------------------*/
 .main {
-    
+   
 }
 .main__wrapper {
     background-color: #e0ded5;
-    width: auto;
+    width: 100%;
+    max-width: 1368px;
 }
 
 .main__features, .main__languages, .main__courses {
@@ -95,36 +116,55 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     background-color: #e0ded5;
+    
     margin: 0 auto;
     margin-bottom: 50px;
-   width: 1185px;
+    width: 1185px;
+    width: 86.62%;
+   
     
 }
  .main__wrapper:nth-child(2) , .main__languages   {
     
     background-image: url(img/lang_desktop-min.png);
     background-position: center;
+    
 }
 .main__item {
-    display: block;
-    width: 370px;
-    height: 300px;
-   
+    display:block;
+    
+    max-width: 370px;
+    
+    width: 28%;
+    min-height: 300px;
+    height: 50vm;
+    padding-right:20px;
+    padding-left:20px;
     background-color: white;
     text-align: center;
     opacity: 0.9;
+    
 }
-.main__item h3{
+.main__item--title{
+    margin: 0;
+    padding: 0;
     margin-top:    30px;
     margin-bottom: 15px;
+    width: 100%;
+    padding: 0;
+   
+    
 }
 .main__item p{
     margin-top:    20px;
     margin-bottom: 35px;
     font-size: 24px;
-    padding: 0 10px;
+    padding: 0 1%;
+    display: block;
+    width: 100%;
+    
     
 }
 .main__item img {
@@ -153,6 +193,7 @@ h3 {
     height: 500px;
     background-image: url(img/map_desk-min.png);
     background-position: center;
+    margin-bottom: 30px;
 }
 .map p {
     color: #ededed;
@@ -168,23 +209,23 @@ h3 {
     border-radius: 10px;
     background-color: #3d3d3d;
     position: relative;
-    top: 10px;
-    left: 620px;
+    top: 12%;
+    left: 32%;
    
     
 }
 .map__icon {
     position: relative;
-    top: 155px;
-    left: 560px;
+    top: 30%;
+    left: 60%;
 }
 
 /*----------------------------------------------*/
 
 .footer {
     display: block;
-    width: auto;
-    height: 200px;
+    width: 100%;
+    min-height: 200px;
     background-color: #3d3d3d;
     color: #ededed;
     font-size: 18px;
@@ -200,9 +241,12 @@ h3 {
 .footer__left{
     display: block;
     float: left;
-    width: 360px;
+    max-width: 360px;
+    width: 26.31%;
+    
     padding-top: 40px;
-    padding-left: 108px;
+    
+    padding-left: 7.89%;
 }
 .footer__item{
     display: block;
@@ -212,10 +256,11 @@ h3 {
 .footer__item--icon{
     display: block;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 25px;
    
 }
+
 .footer__item--text {
     display: block;
     float: left;
@@ -228,10 +273,12 @@ h3 {
 
 .footer__right {
     display: block;
-    float: left;
-    width: 360px;
+    float: right;
+    max-width: 360px;
     padding-top: 40px;
-    padding-left: 420px;
+    width: 26.31%;
+    padding-right: 4.9%;
+   
     
 }
 
@@ -258,19 +305,145 @@ h3 {
     margin: 0;
     padding: 0;
     margin-top: 100px;
-    margin-left: 190px;
     
     
+    
+}
+
+.flexible-image {
+    max-width: 100%;
 }
 
 /*------------------------------------------*/
 
-@media screen and(min-width: 768px) and (max-width: 361px) {
-    background-color: #fff;
-    
-    
+@media screen and (max-width: 1200px) and (min-width: 741px) {
+     .header__title {
+        width: 70%;
+         
+    }
+    .header {
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    .main__features, .main__languages, .main__courses {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .main__item {
+        width: 100%;
+        margin-bottom: 2px;
+        margin-right: 1px;
+        margin-left: 1px;
+        
+    }
+   
+    .map {
+        margin-top: 40px;
+    }
 }
-@media screen and (max-width: 360px) {
-    
-    
+
+
+@media screen and (max-width: 768px) and (min-width: 376px) {
+     .header__title {
+        width: 70%;
+         font-size: 42px;
+    }
+    .header {
+        margin-bottom: 50px;
+        height: 450px;
+        background-position: 1230px 1630px;
+    }
+    .main__features, .main__languages, .main__courses {
+        display: block;
+        
+        width: 100%;
+    }
+    .main__item {
+        width: 100%;
+        max-width: 550px;
+        margin-bottom: 2px;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin: 0 auto;
+        margin-top: -33px;
+    }
+    .main__item--title{
+       padding-top:10px;
+    }
+    .main__wrapper:nth-child(2) , .main__languages {
+        background-image: url(img/header_desktop-min.png);
+        background-position: top;
+        background-size: 400%;
+    }
+    .map {
+        margin-top: 40px;
+    }
+    .footer__item--icon{
+        margin-right: 0;
+    }
+    .footer__right {
+        width:90%;
+       
+        float: left;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        margin-left: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-top: 1px #ededed solid;
+    }
+    .footer__left {
+       width:90%;
+       padding-left: 0.5%;
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+      height: 350px;
+        margin-bottom: 50px;
+        background-position: 1200px 800px;
+    }
+    .header__title {
+        width: 70%;
+        font-size: 34px;
+    }
+    .main__item {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    .main__features, .main__languages, .main__courses {
+        flex-direction: column;
+    }
+    .footer__right {
+        width:90%;
+       
+        float: left;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        margin-left: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-top: 1px #ededed solid;
+    }
+    .footer__left {
+       width:90%;
+       padding-left: 0.5%;
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+    .footer__img {
+        float: right;
+        margin-right: 25px;
+    }
+    .main__wrapper:nth-child(2) , .main__languages {
+        background-image: url(img/header_desktop-min.png);
+        background-position: top;
+    }
+    .map {
+        margin-top: 40px;
+    }
 }
