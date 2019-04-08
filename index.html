@@ -1,611 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#68b738">
-    <meta name="Description" content="Frontend developer from Ukraine. 
-    I'll execute your project quickly and efficiently using the most up-to-date technologies. 
-    Mobile First / Adaptive / PSD to HTML. Price: $16/h">
-    <title>Frontend developer Illia Onishchenko</title>
-    <meta property="og:image" content="img/header__logo.png">
-    <meta property="og:description" content="Hi">
-    <meta property="og:title" content="Hi, my name is Illia. I create modern and responsive web interfaces and sites.">
-    
-    <link rel="preload" href="css/style.min.css" as="style">
-    
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Web lang school</title>
+     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
 </head>
 <body>
-   <header class="page-header" id="header-button">
-      
-       <div class="page-header__wrapper">
-           <nav class="main-nav main-nav--closed main-nav--nojs">
-           <a href="index.html" class="main-nav__logo">Logo</a>
-            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-             <div class="main-nav__wrapper">
-             
-             
-              
-        <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active"><a href="#works">Works</a></li>
-            <li class="site-list__item"><a href="#skills">Skills</a></li>
-            <li class="site-list__item"><a href="#contacts">Contacts</a></li>
-        </ul>  
-          </div> 
-           </nav>
-           <div class="header">
-               <div class="header__wrapper">
-                  <div class="header__item">
-                   <h1 class="header__title">Front-end developer</h1>
-                   <h2 class="header__name">Onishschenko Illia</h2>
-                   <h3 class="header__country">Ukraine
-                       <div class="header__flag"></div>
-                       
-                   </h3>
-                   
-                   <picture class="header__picture--mobile">
-                       <source media="(min-width : 768px)" type="image/webp" srcset="img/raster/desktop-illia.webp 1x , img/raster/desktop-illia@2x.webp 2x">
-                       <source media="(min-width : 768px)" srcset="img/raster/desktop-illia.jpg 1x, img/raster/desktop-illia@2x.jpg 2x" >
-                       <source  type="image/webp" srcset="img/raster/tablet-illia.webp 1x , img/raster/tablet-illia@2x.webp 2x">
-                       <img src="img/raster/tablet-illia.png" srcset="img/raster/tablet-illia@2x.png 2x" alt="Photo of Illia" class="header__photo--tablet">
-                   </picture>
-                   
-                   
-                   <p class="header__text">Hi, my name is Illia. I create modern and responsive web interfaces and sites.</p>
-                   <p class="header__text header__text--add">I'll execute your project quickly and efficiently using the most up-to-date technologies.</p>
-                   </div>
-                   <div class="header__item">
-                   <picture class="header__picture">
-                       <source media="(min-width : 768px)" type="image/webp" srcset="img/raster/desktop-illia.webp 1x , img/raster/desktop-illia@2x.webp 2x">
-                       <source media="(min-width : 768px)" srcset="img/raster/desktop-illia.jpg 1x, img/raster/desktop-illia@2x.jpg 2x" >
-                       <source  type="image/webp" srcset="img/raster/tablet-illia.webp 1x , img/raster/tablet-illia@2x.webp 2x">
-                       <img src="img/raster/tablet-illia.png" srcset="img/raster/tablet-illia@2x.png 2x" alt="Photo of Illia" class="header__photo--tablet">
-                   </picture>
-                   <div class="header__features">
-                       <span class="feaures__item features--header">HTML5</span>
-                       <span class="feaures__item features--header">CSS3</span>
-                       <span class="feaures__item features--header">BEM</span>
-                       <span class="feaures__item features--header">Js</span>
-                       <span class="feaures__item features--header">Less</span>
-                       <span class="feaures__item features--header">Sass</span>
-                       <span class="feaures__item features--header">Gulp</span>
-                       <span class="feaures__item features--header">Git</span>
-                       <span class="feaures__item features--header">Mobile First</span>
-                       <span class="feaures__item features--header">Adaptive</span>
-                   </div>
-                   </div>
-                   
-               </div>
-               <a href="#contacts" class="button header__button">Contact me</a>
-           </div>
-       </div>
-   </header>
-    <main class="page-main">
-        <section class="about">
-           <h3 class="about__header">About me</h3>
-            <div class="about__wrapper">
-                <div class="about__item item">
-                    <h4 class="item__title">Field I working on</h4>
-                    <ul class="item__list">
-                        <li>PSD to HTML</li>
-                        <li>Adaptive and responsive interfaces</li>
-                        <li>Mobile First</li>
-                        <li>BEM metodology</li>
-                        <li>Valid markup</li>
-                    </ul>
-                    <p class="item__text">I want my clients to be happy, then I will be happy too! My goal is to find the best solutions for every project I have.</p>
-                    <p class="item__text">Below you can see my portfolio, which represents some of my work.</p>
-                </div>
-                <div class="about__item">
-                    <h4 class="item-title">General information</h4>
-                    <ul class="item__list">
-                        <li>Age: 23 y.o.</li>
-                        <li>Development experience : 1.5 year</li>
-                        <li>Number of completed projects: 7</li>
-                        <li>Higher Education: Master</li>
-                        <li>Country : Ukraine</li>
-                        <li>Languages : English, Russian, German</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="photo" id="works">
-            <h3 class="photo__title">Works</h3>
-            <div class="photo__wrapper">
-                <a  class="photo__item js-open-modal" data-modal="3">
-                    <picture class="photo__item-img">
-                        <source type="image/webp" srcset="img/raster/rewiew_barber-adaptive.webp 1x , img/raster/rewiew_barber-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_barber-adaptive.png" srcset="img/raster/rewiew_barber-adaptive@2x.png 2x" alt="Language school">
-                    </picture>
-                    </a>
-                <a  class="photo__item js-open-modal" data-modal="2">
-                    <picture class="photo__item-img">
-                        <source type="image/webp" srcset="img/raster/rewiew_cat-adaptive.webp 1x , img/raster/rewiew_cat-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_cat-adaptive.png" srcset="img/raster/rewiew_cat-adaptive@2x.png 2x" alt="Cat energy">
-                    </picture>
-                    </a>
-                <a  class="photo__item js-open-modal" data-modal="1">
-                    <picture class="photo__item-img">
-                        <source type="image/webp" srcset="img/raster/rewiew_lang-adaptive.webp 1x , img/raster/rewiew_lang-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_lang-adaptive.png" srcset="img/raster/rewiew_lang-adaptive@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    </a>
-                <a  class="photo__item js-open-modal" data-modal="4">
-                    <picture class="photo__item-img">
-                        <source type="image/webp" srcset="img/raster/rewiew_sedona-adaptive.webp 1x , img/raster/rewiew_sedona-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_sedona-adaptive.png" srcset="img/raster/rewiew_sedona-adaptive@2x.png 2x" alt="Sedona">
-                    </picture>
-                    </a>    
-                
-            </div>
-            <a href="" class="photo__link">More sites..</a>
-        </section>
-        <section class="skills" id="skills">
-            <h3 class="skills__title">My skills</h3>
-            <div class="skills__wrapper">
-                <div class="skills__item">
-                   <div class="skills__item-header">Programming skills</div>
-                   
-                    <div class="skills__text">
-                       <ul>
-                         <li>HTML</li>
-                         <li>CSS</li>
-                         <li>JavaScript</li>
-                         <li>C++</li>
-                       </ul>
-                    </div>
-                    <div class="skills__bars">
-                        <span class="skills__bar skills_1"></span>
-                        <span class="skills__bar skills_2"></span>
-                        <span class="skills__bar skills_3"></span>
-                        <span class="skills__bar skills_4"></span>
-                    </div>
-                </div>
-                <div class="skills__item">
-                   <div class="skills__item-header">Frontend  technology</div>
-                    <div class="skills__text">
-                       <ul>
-                         <li>Less</li>
-                         <li>Sass</li>
-                         <li>Git</li>
-                         <li>Gulp</li>
-                         <li>Photoshop</li>
-                         <li>Illustrator</li>
-                       </ul>
-                    </div>
-                    <div class="skills__bars">
-                        <span class="skills__bar skills_5"></span>
-                        <span class="skills__bar skills_6"></span>
-                        <span class="skills__bar skills_7"></span>
-                        <span class="skills__bar skills_8"></span>
-                        <span class="skills__bar skills_9"></span>
-                        <span class="skills__bar skills_10"></span>
-                    </div>
-                </div>
-                <div class="skills__item skills__item--list">
-                   <div class="skills__item-header">Frontend skills</div>
-                    <div class="skills__text ">
-                       <ul>
-                         <li>Mobile First</li>
-                         <li>BEM metodology</li>
-                         <li>Adaptive</li>
-                         <li>Responsive</li>
-                         <li>Valid markup</li>
-                         <li>SEO</li>
-                       </ul>
-                    </div>
-                </div>
-                <div class="skills__item skills__item--list">
-                   <div class="skills__item-header">Personal skills</div>
-                    <div class="skills__text ">
-                       <ul>
-                         <li>Self management</li>
-                         <li>Team work</li>
-                         <li>Communication</li>
-                         <li>English</li>
-                       </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contacts" id="contacts">
-           <h3 class="contacts__title">Contact me</h3>
-            <div class="contacts__wrapper">
-                <div class="contacts__item">
-                    <form class="contacts__form" action="https://formspree.io/pearljam546@gmail.com" method="POST">
-                        <label>Name:
-                            <input class="contacts__input" name="name" type="text" required>
-                        </label>
-                        <label>E-mail:
-                            <input class="contacts__input" name="_replyto" type="email" required>
-                        </label>
-                        <label>Message:
-                        <textarea name="message" id="" cols="30" rows="7" required></textarea>
-                        </label>
-                        <input type="submit" class="button contacts__submit" value="Send"> 
-                    </form>
-                </div>
-                <div class="contacts__item">
-                    <p class="contacts__thanks">Thank you for your attention. I'm looking forward to working with you!</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__wrapper">
-            <div class="footer__social">
-                <ul class="footer__social social__list">
-                <li class="social__item"><a href="https://vk.com/oniks196" class="social__link social__link--vkontakte">Вконтакте
-                <svg width="33" height="18" class="social__vk-svg">
-                    <use xlink:href="img/symbols.svg#icon-vk-mobile"></use>
-                </svg>
-                </a></li>
-                <li class="social__item"><a href="https://www.instagram.com/moofaka_yo/" class="social__link social__link--instagram">Инстаграм
-                
-                <svg width="24" height="24" class="social__inst-svg">
-                    <use xlink:href="img/symbols.svg#icon-insta-mobile"></use>
-                </svg>
-                
-                </a></li>
-                <li class="social__item"><a href="https://www.facebook.com/ilya.onischenko.39" class="social__link social__link--facebook">Фейсбук
-                <svg width="20" height="28" class="social__fb-svg">
-                    <use xlink:href="img/symbols.svg#icon-fb-mobile"></use>
-                </svg>
-                </a></li>
+      <div class="wrapper">
+       <div class="header">
+        <div class="header__logo"><a href="#"><img src="img/logo_big_1.png" alt="logo" width="40px" height="35px"></a></div>
+        <div class="header__menu">
+           
+            <ul class="header__menu--list">
+                <li class="header__menu--item"><a href="#languages">Языки</a></li>
+                <li class="header__menu--item"><a href="#courses">Курсы</a></li>
+                <li class="header__menu--item"><a href="#footer">О нас</a></li>
             </ul>
+        </div> 
+        <h1 class="header__title">Make your dream come true</h1>
+        <div class="clearfix"></div>
+    </div>
+    <div class="main">
+       <div class="main__wrapper">
+        <div class="main__features">
+            <div class="main__item">
+                <h3 class="main__item--title">Grammar</h3>
+                <img src="img/grammar_icon_big.png" alt="grammar icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Грамматика это легко и интересно</p>
+                
             </div>
-            <div class="footer__copy">
-            <span>ilonikso.copyright ©<br>2017-2019</span>
+            <div class="main__item">
+                <h3 class="main__item--title">Speaking</h3>
+                <img src="img/speaking-logo-big.png" alt="speaking icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Языковая практика и общение с носителем языка</p>
+                <div class="clearfix"></div>
+            </div>
+            <div class="main__item">
+                <h3 class="main__item--title">Vocabulary</h3>
+                <img src="img/vocabulary_icon_big.png" alt="vocabulary icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Словарный запас для свободного общения</p>
+                
+            </div>
+            
         </div>
         </div>
-        
-    </footer>
-    
-    
-    
-    <div class="modal" data-modal="3">
-   <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-   
-                 <div class="modal__wrapper">
-                  <div class="modal__image">
-                   <div class="modal__image-box">
-                   <picture class="modal__item-img slide-active" data-img="1">
-                        <source type="image/webp" srcset="img/raster/rewiew_barber-adaptive.webp 1x , img/raster/rewiew_barber-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_barber-adaptive.png" srcset="img/raster/rewiew_barber-adaptive@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="2">
-                        <source type="image/webp" srcset="img/raster/rewiew_barber-adaptive_mobile.webp 1x , img/raster/rewiew_barber-adaptive_mobile@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_barber-adaptive_mobile.png" srcset="img/raster/rewiew_barber-adaptive_mobile@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="3">
-                        <source type="image/webp" srcset="img/raster/rewiew_barber-adaptive_tablet.webp 1x , img/raster/rewiew_barber-adaptive_tablet@2x.webp 2x">
-                        <img src="img/raster/rewiew_barber-adaptive_tablet.png" srcset="img/raster/rewiew_barber-adaptive_tablet@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="4">
-                        <source type="image/webp" srcset="img/raster/rewiew_barber-adaptive_desktop.webp 1x , img/raster/rewiew_barber-adaptive_desktop@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_barber-adaptive_desktop.png" srcset="img/raster/rewiew_barber-adaptive_desktop@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    
-                    </div>
-                    
-                    
-                    <div class="modal__buttons">
-                       
-                        <label class="modal__button modal__button--active" data-img="1">
-                            <input   type="button" value="review">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#devices-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-mobile" data-img="2">
-                            <input  type="button" value="mobile">
-                            <svg width="40" height="31" class="modal__button-svg">
-                                 <use xlink:href="img/symbols.svg#mobile-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-tablet" data-img="3">
-                            <input  type="button" value="tablet">
-                            <svg width="30" height="36" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#tablet-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-desktop" data-img="4">
-                            <input  type="button" value="desktop">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#desktop-icon"></use>
-                            </svg>
-                        </label>
-                        
-                    </div>
-                    </div>
-                    <div class="modal__text">
-                        <h4 class="modal__title">Barbershop "Borodinski"</h4>
-                        <p class="modal__text-description">Landing page of barbershop in Saint Peterburg.</p>
-                        <ul>
-                            <li>Layout standards: HTML5, CSS3, progressive enhancement</li>
-                            <li>Grid: defined in layout</li>
-                            <li>Adaptability of the layout: yes</li>
-                            <li>Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari.</li>
-                            <li>Preprocessor used: Gulp + Less</li>
-                            <li>The markup is made using the BEM methodology.</li>
-                            <li>Mobile first approach</li>
-                            <li>Optimized for download on the slow or mobile Internet</li>
-                        </ul>
-                        <div class="modal__blocks">
-                            <span class="feaures__item features--header">HTML5</span>
-                       <span class="feaures__item features--header">CSS3</span>
-                       <span class="feaures__item features--header">BEM</span>
-                       <span class="feaures__item features--header">Js</span>
-                       <span class="feaures__item features--header">Gulp</span>
-                       <span class="feaures__item features--header">Less</span>
-                       <span class="feaures__item features--header">Mobile First</span>
-                       <span class="feaures__item features--header">Adaptive</span>
-                       <span class="feaures__item features--header">SVG</span>
-                        </div>
-                       
-                    </div>
-                    
-                    </div>
-                    <a href="https://ilonikso.github.io/barber_adaptive/" class="modal__link button">Live prewiev</a>
-</div>
-    <div class="modal" data-modal="2">
-   <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-   
-                 <div class="modal__wrapper">
-                  <div class="modal__image">
-                   <div class="modal__image-box">
-                   <picture class="modal__item-img slide-active" data-img="1">
-                        <source type="image/webp" srcset="img/raster/rewiew_cat-adaptive.webp 1x , img/raster/rewiew_cat-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_cat-adaptive.png" srcset="img/raster/rewiew_cat-adaptive@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="2">
-                        <source type="image/webp" srcset="img/raster/rewiew_cat-adaptive_mobile.webp 1x , img/raster/rewiew_cat-adaptive_mobile@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_cat-adaptive_mobile.png" srcset="img/raster/rewiew_cat-adaptive_mobile@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="3">
-                        <source type="image/webp" srcset="img/raster/rewiew_cat-adaptive_tablet.webp 1x , img/raster/rewiew_cat-adaptive_tablet@2x.webp 2x">
-                        <img src="img/raster/rewiew_cat-adaptive_tablet.png" srcset="img/raster/rewiew_cat-adaptive_tablet@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="4">
-                        <source type="image/webp" srcset="img/raster/rewiew_cat-adaptive_desktop.webp 1x , img/raster/rewiew_cat-adaptive_desktop@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_cat-adaptive_desktop.png" srcset="img/raster/rewiew_cat-adaptive_desktop@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    
-                    </div>
-                    
-                    
-                    <div class="modal__buttons">
-                       
-                        <label class="modal__button modal__button--active" data-img="1">
-                            <input   type="button" value="review">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#devices-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-mobile" data-img="2">
-                            <input  type="button" value="mobile">
-                            <svg width="40" height="31" class="modal__button-svg">
-                                 <use xlink:href="img/symbols.svg#mobile-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-tablet" data-img="3">
-                            <input  type="button" value="tablet">
-                            <svg width="30" height="36" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#tablet-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-desktop" data-img="4">
-                            <input  type="button" value="desktop">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#desktop-icon"></use>
-                            </svg>
-                        </label>
-                        
-                    </div>
-                    </div>
-                    <div class="modal__text">
-                        <h4 class="modal__title">Online food store for cats "Cat Energy"</h4>
-                        <p class="modal__text-description">Multipage online store. Home page, product page, page with feedback form.</p>
-                        <ul>
-                            <li>Layout standards: HTML5, CSS3, progressive enhancement</li>
-                            <li>Grid: defined in layout</li>
-                            <li>Adaptability of the layout: Adaptive + Responsive </li>
-                            <li>Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari.</li>
-                            <li>The markup is made using the BEM methodology.</li>
-                            <li>Optimized performance for faster loading and ranking in Google</li>
-                        </ul>
-                        <div class="modal__blocks">
-                            <span class="feaures__item features--header">HTML5</span>
-                       <span class="feaures__item features--header">CSS3</span>
-                       <span class="feaures__item features--header">BEM</span>
-                       <span class="feaures__item features--header">Gulp</span>
-                       <span class="feaures__item features--header">Less</span>
-                       <span class="feaures__item features--header">Mobile first</span>
-                       <span class="feaures__item features--header">Adaptive</span>
-                       <span class="feaures__item features--header">Responsive</span>
-                       <span class="feaures__item features--header">SVG</span>
-                       
-                       
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <a href="https://ilonikso.github.io/cat/" class="modal__link button">Live prewiev</a>
-</div>
-    <div class="modal" data-modal="1">
-   <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-   
-                 <div class="modal__wrapper">
-                  <div class="modal__image">
-                   <div class="modal__image-box">
-                   <picture class="modal__item-img slide-active" data-img="1">
-                        <source type="image/webp" srcset="img/raster/rewiew_lang-adaptive.webp 1x , img/raster/rewiew_lang-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_lang-adaptive.png" srcset="img/raster/rewiew_lang-adaptive@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="2">
-                        <source type="image/webp" srcset="img/raster/rewiew_lang-adaptive_mobile.webp 1x , img/raster/rewiew_lang-adaptive_mobile@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_lang-adaptive_mobile.png" srcset="img/raster/rewiew_lang-adaptive_mobile@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="3">
-                        <source type="image/webp" srcset="img/raster/rewiew_lang-adaptive_tablet.webp 1x , img/raster/rewiew_lang-adaptive_tablet@2x.webp 2x">
-                        <img src="img/raster/rewiew_lang-adaptive_tablet.png" srcset="img/raster/rewiew_lang-adaptive_tablet@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    <picture class="modal__item-img" data-img="4">
-                        <source type="image/webp" srcset="img/raster/rewiew_lang-adaptive_desktop.webp 1x , img/raster/rewiew_lang-adaptive_desktop@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_lang-adaptive_desktop.png" srcset="img/raster/rewiew_lang-adaptive_desktop@2x.png 2x" alt="Barbershop">
-                    </picture>
-                    
-                    </div>
-                    
-                    
-                    <div class="modal__buttons">
-                       
-                        <label class="modal__button modal__button--active" data-img="1">
-                            <input   type="button" value="review">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#devices-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-mobile" data-img="2">
-                            <input  type="button" value="mobile">
-                            <svg width="40" height="31" class="modal__button-svg">
-                                 <use xlink:href="img/symbols.svg#mobile-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-tablet" data-img="3">
-                            <input  type="button" value="tablet">
-                            <svg width="30" height="36" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#tablet-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-desktop" data-img="4">
-                            <input  type="button" value="desktop">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#desktop-icon"></use>
-                            </svg>
-                        </label>
-                        
-                    </div>
-                    </div>
-                    <div class="modal__text">
-                        <h4 class="modal__title">"Pro English" Language School Landing Page</h4>
-                        <p class="modal__text-description">Landing Page Language School in Kiev, Ukraine</p>
-                        <ul>
-                            <li>Layout standards: HTML5, CSS3</li>
-                            <li>Grid: defined in layout</li>
-                            <li>Adaptability of the layout: Responsive behavior</li>
-                            <li>Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari.</li>
-                            <li>The markup is made using the BEM methodology.</li>
-                            <li>Valid markup.</li>
-                            <li>Optimized for download on the slow or mobile Internet</li>
-                        </ul>
-                        <div class="modal__blocks">
-                            <span class="feaures__item features--header">HTML5</span>
-                       <span class="feaures__item features--header">CSS3</span>
-                       <span class="feaures__item features--header">BEM</span>
-                       <span class="feaures__item features--header">Responsive</span>
-                       <span class="feaures__item features--header">SVG</span>
-                       <span class="feaures__item features--header">Desktop first</span>
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <a href="https://ilonikso.github.io/languages_ilonikso/" class="modal__link button">Live prewiev</a>
-</div> 
-    <div class="modal" data-modal="4">
-   <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-   
-                 <div class="modal__wrapper">
-                  <div class="modal__image">
-                   <div class="modal__image-box">
-                   <picture class="modal__item-img slide-active" data-img="1">
-                        <source type="image/webp" srcset="img/raster/rewiew_sedona-adaptive.webp 1x , img/raster/rewiew_sedona-adaptive@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_sedona-adaptive.png" srcset="img/raster/rewiew_sedona-adaptive@2x.png 2x" alt="Sedona web site review">
-                    </picture>
-                    <picture class="modal__item-img" data-img="2">
-                        <source type="image/webp" srcset="img/raster/rewiew_sedona-adaptive_mobile.webp 1x , img/raster/rewiew_sedona-adaptive_mobile@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_sedona-adaptive_mobile.png" srcset="img/raster/rewiew_sedona-adaptive_mobile@2x.png 2x" alt="Sedona web site review">
-                    </picture>
-                    <picture class="modal__item-img" data-img="3">
-                        <source type="image/webp" srcset="img/raster/rewiew_sedona-adaptive_tablet.webp 1x , img/raster/rewiew_sedona-adaptive_tablet@2x.webp 2x">
-                        <img src="img/raster/rewiew_sedona-adaptive_tablet.png" srcset="img/raster/rewiew_sedona-adaptive_tablet@2x.png 2x" alt="Sedona web site review">
-                    </picture>
-                    <picture class="modal__item-img" data-img="4">
-                        <source type="image/webp" srcset="img/raster/rewiew_sedona-adaptive_desktop.webp 1x , img/raster/rewiew_sedona-adaptive_desktop@2x.webp 2x"> 
-                        <img src="img/raster/rewiew_sedona-adaptive_desktop.png" srcset="img/raster/rewiew_sedona-adaptive_desktop@2x.png 2x" alt="Sedona web site review">
-                    </picture>
-                    
-                    </div>
-                    
-                    
-                    <div class="modal__buttons">
-                       
-                        <label class="modal__button modal__button--active" data-img="1">
-                            <input   type="button" value="review">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#devices-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-mobile" data-img="2">
-                            <input  type="button" value="mobile">
-                            <svg width="40" height="31" class="modal__button-svg">
-                                 <use xlink:href="img/symbols.svg#mobile-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-tablet" data-img="3">
-                            <input  type="button" value="tablet">
-                            <svg width="30" height="36" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#tablet-icon"></use>
-                            </svg>
-                        </label>
-                        <label class="modal__button button-desktop" data-img="4">
-                            <input  type="button" value="desktop">
-                            <svg width="65" height="40" class="modal__button-svg">
-                                <use xlink:href="img/symbols.svg#desktop-icon"></use>
-                            </svg>
-                        </label>
-                        
-                    </div>
-                    </div>
-                    <div class="modal__text">
-                        <h4 class="modal__title">Excursions to the city of "Sedona"</h4>
-                        <p class="modal__text-description">Multipage website of a tour operator in America.</p>
-                        <ul>
-                            <li>Layout standards: HTML5, CSS3, progressive enhancement</li>
-                            <li>Grid: defined in layout</li>
-                            <li>Adaptability of the layout: Responsive behavior</li>
-                            <li>Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari.</li>
-                            <li>Typography: partially defined in the layout</li>
-                            <li>Fonts used: PT Sans Narrow (available at google.com/fonts)</li>
-                        </ul>
-                        <div class="modal__blocks">
-                            <span class="feaures__item features--header">HTML5</span>
-                       <span class="feaures__item features--header">CSS3</span>
-                       <span class="feaures__item features--header">BEM</span>
-                       <span class="feaures__item features--header">Js</span>
-                       <span class="feaures__item features--header">Responsive</span>
-                       
-                        </div>
-                    </div>
-                    
-                    </div>
-                    <a href="https://ilonikso.github.io/Sedona_web/" class="modal__link button">Live prewiev</a>
-</div>
-    
-    <div class="overlay js-overlay-modal"></div>
-    <a href="#header-button" class="header__top-button">to top</a>
-    
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/modal__image.js"></script>   
+        <div class="main__wrapper">
+        <div class="main__languages">
+           <a name="languages"></a>
+            <div class="main__item main__item--languages">
+                <h3 class="main__item--title">English</h3>
+                <img src="img/usa_big.png" alt="english icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">English, motherfucker! Do you speak it?</p>
+            </div>
+            <div class="main__item main__item--languages">
+                <h3 class="main__item--title">Deutsch</h3>
+                <img src="img/german_big.png" alt="german icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Morgen, morgen, aber nicht heute, alle faule Menschen sagen</p>
+            </div>
+            <div class="main__item main__item--languages">
+                <h3 class="main__item--title">Français</h3>
+                <img src="img/france_big.png" alt="france icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Je ne parle pas français</p>
+            </div>
+            </div>
+        </div>
+        <div class="main__wrapper">
+        <div class="main__courses">
+           <a name="courses"></a>
+            <div class="main__item">
+                <h3 class="main__item--title">Kids</h3>
+                <img src="img/kids_big.png" alt="kids icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Изучение языка с детьми любого возраста</p>
+            </div>
+            <div class="main__item">
+                <h3 class="main__item--title">Basic</h3>
+                <img src="img/basic_big.png" alt="basic icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Групповые и индивидуальные занятия от А1 до С1</p>
+            </div>
+            <div class="main__item">
+                <h3 class="main__item--title">Pro+</h3>
+                <img src="img/pro_big.png" alt="pro icon" class="main__item--logo flexible-image">
+                <p class="main__item--p">Подготовка к TOEFL и IELTS. Бизнес-английский</p>
+            </div>
+        </div>
+        </div>
+                 <div class="clearfix"></div>
 
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.523100191522!2d-74.010733122816!3d40.71513754022398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1f020e8b8d%3A0x5edb6c36dbbc1e70!2zMTI2IFJlYWRlIFN0LCBOZXcgWW9yaywgTlkgMTAwMTMsINCh0KjQkA!5e0!3m2!1sru!2sua!4v1548937736985" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> 
+        
+        
+    </div>
+    <div class="footer">
+       <a name="footer"></a>
+        <div class="footer__left">
+            <ul class="footer__list">
+                <li class="footer__item">
+                   <img src="img/map_footer.png" alt="map footer" class="footer__item--icon">
+                    <p class="footer__item--text">New York, 12st 35a</p>
+                </li>
+                <li class="footer__item">
+                   <img src="img/footer_phone.png" alt="phone footer" class="footer__item--icon">
+                    <p class="footer__item--text">+1452 45 654 5487</p>
+                </li>
+                <li class="footer__item">
+                   <img src="img/footer_mail.png" alt="" class="footer__item--icon">
+                    <span class="footer__item--text">prolanguage@support.us</span>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="footer__right">
+           
+            <img src="img/logo_big_1.png" alt="logo" class="footer__item--icon" width="28px">
+            <p class="footer__item">Языковая школа "Prolanguage"</p>
+            <div class="footer__img">
+                <a href="" class="footer__img--social">Instagram<img src="img/inst_big.png" alt="Instagram" class="footer__img--item"></a>
+                <a href="" class="footer__img--social">Facebook<img src="img/face_big.png" alt="Facebook" class="footer__img--item"></a>
+                <a href="" class="footer__img--social">Twitter<img src="img/twitter_big.png" alt="Twitter" class="footer__img--item"></a>
+                
+            </div>
+            <p class="footer__copy">ilonikso.web.co</p>
+             <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </div>
 </body>
 </html>
